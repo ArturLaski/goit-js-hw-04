@@ -30,9 +30,9 @@ const days2 = [
   { day: 'sunday', calories: 2610 }
 ];
 
-const result1 = calcAverageCalories(days1); // 3180
-const result2 = calcAverageCalories(days2); // 2270
-const result3 = calcAverageCalories([]);    // 0
+let result1 = calcAverageCalories(days1); // 3180
+let result2 = calcAverageCalories(days2); // 2270
+let result3 = calcAverageCalories([]);    // 0
 
 task2ResultsDiv.innerHTML += `<p>Average calories for days1: ${result1}</p>`;
 task2ResultsDiv.innerHTML += `<p>Average calories for days2: ${result2}</p>`;
